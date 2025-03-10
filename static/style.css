@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(90deg, #ff9a9e, #fad0c4);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.bus-layout {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.seat {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.booked {
+    background-color: green;
+    cursor: not-allowed;
+}
+
+.seat:hover {
+    background-color: lightgray;
+}

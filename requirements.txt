@@ -1,5 +1,4 @@
 flask
-gunicorn
-requests
 flask_sqlalchemy
-
+flask_cors
+gunicorn
